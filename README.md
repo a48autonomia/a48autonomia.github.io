@@ -26,9 +26,9 @@ O visitante preenche os dados e confirma a leitura do aviso de privacidade. O na
 
 ## Publicação no GitHub Pages
 
-Repositório: [a40autonomia/a40autonomia.github.io](https://github.com/a40autonomia/a40autonomia.github.io). O GitHub Pages usa **GitHub Actions** como fonte de publicação. O fluxo publica a cada push na branch `main` e também pode ser executado em **Actions → Publicar GitHub Pages → Run workflow**. Enquanto o identificador do FormSubmit não estiver configurado, o site será publicado com o formulário desabilitado e o WhatsApp disponível.
+Repositório: [a48autonomia/a48autonomia.github.io](https://github.com/a48autonomia/a48autonomia.github.io). O GitHub Pages usa **GitHub Actions** como fonte de publicação. O fluxo publica a cada push na branch `main` e também pode ser executado em **Actions → Publicar GitHub Pages → Run workflow**. Enquanto o identificador do FormSubmit não estiver configurado, o site será publicado com o formulário desabilitado e o WhatsApp disponível.
 
-O endereço inicial é `https://a40autonomia.github.io/`. A organização foi criada com o nome `a40autonomia`; a marca do site continua sendo A48 Autonomia. Os caminhos relativos permitem o mesmo funcionamento no domínio próprio. O artefato publicado contém apenas os arquivos gerados em `dist/`; README e ferramentas não entram na página.
+O endereço inicial é `https://a48autonomia.github.io/`. Os caminhos relativos permitem o mesmo funcionamento no domínio próprio. O artefato publicado contém apenas os arquivos gerados em `dist/`; README e ferramentas não entram na página.
 
 ## Domínio próprio depois da compra
 
