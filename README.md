@@ -34,6 +34,10 @@ O endereço inicial é `https://a48autonomia.github.io/`. Os caminhos relativos 
 
 O arquivo `esboco_site/google23011148cf338c48.html` é copiado em toda publicação para `https://a48autonomia.github.io/google23011148cf338c48.html`. Mantenha o arquivo e a etapa de cópia no build mesmo após a confirmação no Google Search Console.
 
+## Sitemap
+
+O build publica `esboco_site/sitemap.xml` e `esboco_site/robots.txt` na raiz do site. O sitemap lista a página principal e é referenciado pelo robots.txt. No Google Search Console, em **Sitemaps**, envie `https://a48autonomia.github.io/sitemap.xml`. Ao adotar o domínio próprio, atualize as URLs absolutas desses dois arquivos.
+
 ## Domínio próprio depois da compra
 
 Não há CNAME configurado antecipadamente. Quando adquirir `a48autonomia.com.br`, verifique a propriedade do domínio e configure-o em Settings → Pages, seguindo a [documentação oficial do GitHub](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). Configure os registros DNS apresentados na documentação e habilite **Enforce HTTPS** quando o certificado estiver disponível. Evite fixar IPs copiados de tutoriais antigos. O serviço de formulário pode solicitar nova confirmação ao mudar o endereço do site; teste o envio novamente.

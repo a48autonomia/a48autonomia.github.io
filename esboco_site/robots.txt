@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a48autonomia.github.io/sitemap.xml
