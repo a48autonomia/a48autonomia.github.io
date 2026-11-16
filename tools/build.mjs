@@ -24,6 +24,8 @@ for (const [from, to] of [
   ['site-config.js', 'site-config.js'],
   ['site.js', 'site.js'],
   ['favicon.svg', 'favicon.svg'],
+  // Manter na raiz publicada para preservar a verificação do Google.
+  ['google23011148cf338c48.html', 'google23011148cf338c48.html'],
 ]) await copyFile(path.join(source, from), path.join(output, to));
 await writeFile(path.join(output, '.nojekyll'), '');
 console.log('Site preparado em dist/.');

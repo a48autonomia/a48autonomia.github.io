@@ -30,6 +30,10 @@ Repositório: [a48autonomia/a48autonomia.github.io](https://github.com/a48autono
 
 O endereço inicial é `https://a48autonomia.github.io/`. Os caminhos relativos permitem o mesmo funcionamento no domínio próprio. O artefato publicado contém apenas os arquivos gerados em `dist/`; README e ferramentas não entram na página.
 
+## Verificação do Google
+
+O arquivo `esboco_site/google23011148cf338c48.html` é copiado em toda publicação para `https://a48autonomia.github.io/google23011148cf338c48.html`. Mantenha o arquivo e a etapa de cópia no build mesmo após a confirmação no Google Search Console.
+
 ## Domínio próprio depois da compra
 
 Não há CNAME configurado antecipadamente. Quando adquirir `a48autonomia.com.br`, verifique a propriedade do domínio e configure-o em Settings → Pages, seguindo a [documentação oficial do GitHub](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). Configure os registros DNS apresentados na documentação e habilite **Enforce HTTPS** quando o certificado estiver disponível. Evite fixar IPs copiados de tutoriais antigos. O serviço de formulário pode solicitar nova confirmação ao mudar o endereço do site; teste o envio novamente.
